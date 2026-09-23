@@ -1,0 +1,5 @@
+node_modules
+Apps/Client/node_modules
+Apps/Client/env
+Apps/Server/node_modules
+Apps/Server/env
