@@ -32,6 +32,7 @@ import ATS from './pages/private/students/ATS'
 import Results from './pages/private/Result/Result'
 import Teachers from './pages/private/Teacher/Teacher'
 import TeacherId from './pages/private/Teacher/TeacherId'
+import Reports from './pages/private/students/Reports'
 const App = () => {
   return (
       <Routes>
@@ -70,6 +71,10 @@ const App = () => {
           <Route
             path=":id"
             element={<StudentProfile/>}
+          />
+          <Route
+            path="reports"
+            element={<Reports/>}
           />
           <Route
             path="Attendance"
